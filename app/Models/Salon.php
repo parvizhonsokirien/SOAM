@@ -11,12 +11,5 @@ class Salon extends Model
 
     protected $fillable = ['name', 'phone', 'email', 'week', 'start_time', 'end_time',];
 
-    protected function casts(): array
-    {
-        return [
-            'Weekday' => 'date:Y-m-d',
-            'joined_at' => 'datetime:Y-m-d H:00',
-        ];
-    }
 
 }

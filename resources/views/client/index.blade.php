@@ -17,7 +17,6 @@
                         <div>
                             <a href="{{route('client.create')}}" class="btn btn-primary">Добавить</a>
 
-                            <a href="{{route('main.index')}}" class="btn btn-primary">Перейти на сайт</a>
 
                         </div>
                         <br>

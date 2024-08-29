@@ -8,7 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Client extends Model
 {
     use HasFactory;
-    protected $fillable = ['name', 'phone', 'email', 'description',];
+    const ROLE_CLIENT = 1;
+
+    protected $fillable = ['name', 'phone', 'email', 'description', 'role',];
 
    /*
      public function user()

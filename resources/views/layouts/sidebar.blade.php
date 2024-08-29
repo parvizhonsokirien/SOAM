@@ -118,7 +118,6 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="{{ route('client.index') }}" class="nav-link">
                             <i class="fas fa-registered"></i>
                             <p>Список клиентов</p>
                         </a>

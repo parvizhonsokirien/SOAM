@@ -75,9 +75,10 @@
                                         </form>
                                     </td>
                                 </tr>
+                            </tbody>
+
                             @endforeach
 
-                            </tfoot>
                         </table>
                     </div>
                 </div>
